@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://ct4kukdrs2ftk"]
+
+[ext_resource type="Texture2D" uid="uid://7qbqh5b21xy4" path="res://assets/power plant mockup.png" id="1_u7rjv"]
+[ext_resource type="Script" path="res://buildings/building.gd" id="2_t4n0g"]
+
+[node name="BaseMockup" type="Sprite2D"]
+editor_description = "Hello"
+texture = ExtResource("1_u7rjv")
+centered = false
+script = ExtResource("2_t4n0g")
+size_x = 2

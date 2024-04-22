@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://bgohq8qf2r4ip"]
+
+[ext_resource type="Texture2D" uid="uid://f4y85p5x1vwg" path="res://assets/Base mockup.png" id="1_k1wn0"]
+[ext_resource type="Script" path="res://buildings/building.gd" id="2_6asyc"]
+
+[node name="BaseMockup" type="Sprite2D"]
+texture = ExtResource("1_k1wn0")
+centered = false
+script = ExtResource("2_6asyc")
